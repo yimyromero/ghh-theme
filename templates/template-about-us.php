@@ -4,9 +4,9 @@ Template Name: About Us
 */
 ?>
 <?php get_header(); ?>
-<section class="@container py-20">
+<section class="@container test py-20">
   <div class="text-center max-w-3xl mx-auto">
-    <h1 class="text-6xl font-bold mb-4">About Us</h1>
+    <h1 class="text-6xl text-blue-500 font-bold mb-4">About Us</h1>
     <p class="text-slate-400 text-lg">Learn more about our mission, values, and the team behind <?php bloginfo('name'); ?>.</p>
   </div>
   <div class="mt-12 grid gap-8 md:grid-cols-2">
